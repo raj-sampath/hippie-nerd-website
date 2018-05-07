@@ -86,7 +86,7 @@ section {
 /* HEADER */
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(images/baby-yoga-back-new.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(images/kid-yoga.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -143,18 +143,21 @@ nav {
 }
 
 .main-heading h1 {
-    font-size: 400%
+    font-size: 600%;
+    font-family: 'Knewave', cursive;
 }
 
 .main-heading h3 {
-    font-size: 200%
+    transform: translateY(-30px);
+    font-size: 200%;
+    font-weight: 100;
 }
 
 .main-heading {
     text-align: right;
     position: absolute;
     width: 1140px;
-    top: 70%;
+    top: 65%;
     right: 2%;
     color: #c6c6c6;
 }
