@@ -138,6 +138,7 @@ nav {
 {
     border-bottom: solid 2px #03A9F4;
     text-decoration: none;
+    padding-bottom: 6px;
 }
 
 .sticky-nav {                            /*Stricky Navigation */
