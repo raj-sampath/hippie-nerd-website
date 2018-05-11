@@ -1,4 +1,15 @@
 $(document).ready(function(){
+
+    var waypoints = $('.js--section-babies').waypoint(function(direction) {
+        if(direction == "down"){
+            $("nav").addClass("sticky-nav")
+        }
+        else{
+            $("nav").removeClass("sticky-nav")
+        }
+      }, {
+        offset: '10%'
+    })
     
     /* Navigation */
     $('.js--babies-link').click(function(){
